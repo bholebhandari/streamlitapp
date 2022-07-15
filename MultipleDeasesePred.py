@@ -49,12 +49,12 @@ if selected=="Home":
     
 def diabetesSoltutions():
     st.write("<h3>Manage Your Diabetes for Life</h3>", unsafe_allow_html = True)
-    dontWorry = Image.open(r'dontWorry.jpg')
-    st.image(dontWorry,width=700)
+    dont = Image.open(r'dontWorry.jpg')
+    st.image(dont,width=700)
     st.write("<p>It is common to feel overwhelmed, sad, or angry when you are living with diabetes. You may know the steps you should take to stay healthy, but have trouble sticking with your plan over time. This section has tips on how to cope with your diabetes, eat well, and be active.</p>",unsafe_allow_html=True)
     st.write("<h5>Cope with your diabetes.</h5><br><p><b>1.</b> Stress can raise your blood sugar. Learn ways to lower your stress. Try deep breathing, gardening, taking a walk, meditating, working on your hobby, or listening to your favorite music.</p>",unsafe_allow_html=True)
     st.write("<p><b>2.</b>Ask for help if you feel down. A mental health counselor, support group, member of the clergy, friend, or family member who will listen to your concerns may help you feel better.</p><br><h5>Eat well.</h5>",unsafe_allow_html = True)
-    khana  = Image.open(r'diaThali.png')
+    khana  = Image.open(r'diathali.png')
     st.image(khana,width=550)
     st.write("<p> Make a diabetes meal plan with help from your health care team. Choose foods that are lower in calories, saturated fat, trans fat, sugar, and salt. Eat foods with more fiber, such as whole grain cereals, breads, crackers, rice, or pasta.Choose foods such as fruits, vegetables, whole grains, bread and cereals, and low-fat or skim milk and cheese. Drink water instead of juice and regular soda. When eating a meal, fill half of your plate with fruits and vegetables, one quarter with a lean protein, such as beans, or chicken or turkey without the skin, and one quarter with a whole grain, such as brown rice or whole wheat pasta.",unsafe_allow_html=True)
     st.write("<h5>Be active.</h5>",unsafe_allow_html = True)
